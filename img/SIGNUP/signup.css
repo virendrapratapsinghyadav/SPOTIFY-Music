@@ -1,0 +1,122 @@
+body{
+    background-color: black;
+    color: whitesmoke;
+    min-height: 100vh;
+}
+.invert{
+    filter: invert(1);
+}
+.header{
+    display: flex;
+    justify-content: center;
+    padding-top: 32px;
+    padding-bottom: 22px;
+}
+#to{
+    font-size: 42px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 0px;
+}
+.heading{
+    display: flex;
+    justify-content: center;
+}
+.frm{
+    display: flex;
+    justify-content: center;
+}
+.referal{
+    display: flex;
+    justify-content: center;
+}
+.foot{
+    text-align: center;
+    padding: 10px 0;
+    margin-top: auto; 
+}
+.email{
+    padding-left: 10px;
+}
+.domain{
+    text-align: center;
+}
+
+input{
+    width: 302px;
+    height: 30px;
+    color: whitesmoke;
+    background-color: black;
+    border: 1px solid green;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+}
+.line {
+    flex: 1;
+    height: 1px; 
+    background-color:#382626; 
+    margin: 10px 10px; 
+}
+
+.or {
+    font-weight: bold; 
+    color: whitesmoke; 
+}
+button{
+    font-family: sans-serif;
+    font-weight: 800;
+    width: 324px;
+    height: 48px;
+    background-color: #79bc12;
+    border: 2px solid #79bc12;
+    border-radius: 60px;
+}
+.container{
+    margin-top: 20px;
+}
+.refer{
+    margin-top: 22px;
+}
+.google, .apple, .facebook{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 324px;
+    height: 48px;
+    background-color: black;
+    border: 2px solid #2e422e;
+    border-radius: 60px;
+    margin: 5px 0;
+    padding: 2px;
+    font-size: 16px;
+}
+.google a, .apple a, .facebook a{
+ text-decoration: none;
+ color: whitesmoke;
+}
+
+
+.line2{
+    flex: 1;
+    height: 1px;
+    background-color: #382626; 
+    margin: 20px 14px;
+}
+.already p{
+
+    text-align: center;
+}
+.already a{
+    color: whitesmoke;
+}
+.phone{
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+.phone a{
+    color:#79bc12;  
+    
+}
