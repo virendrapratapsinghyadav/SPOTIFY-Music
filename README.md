@@ -3,7 +3,7 @@
 A simple web-based Spotify clone built with vanilla JavaScript, HTML, and CSS. This project fetches songs from local folders and allows users to play, pause, seek, control volume, and browse music albums just like in a basic music streaming app.
 
 
-## 🚀 Features
+##  Features
 
 -  Play/pause songs
 -  Previous/next track
